@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Salpa - Boia Filtrante de Microplásticos</title>
+    <meta name="description"
+        content="Boia filtrante de baixo custo para remediação de microplásticos em corpos d'água desenvolvida por estudantes do SENAC Santa Cruz do Sul">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/image.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__brand">
+                    <h1 class="nav__title">Projeto Salpa</h1>
+                    <span class="nav__subtitle">Boia Filtrante de Microplásticos</span>
+                </div>
+                <ul class="nav__menu" id="nav-menu">
+                    <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li><a href="#funcionamento" class="nav__link">Como Funciona</a></li>
+                    <li><a href="#caracteristicas" class="nav__link">Características</a></li>
+                    <li><a href="#resultados" class="nav__link">Resultados</a></li>
+                    <li><a href="#galeria" class="nav__link">Galeria</a></li>
+                    <li><a href="#contato" class="nav__link">Contato</a></li>
+                    <li><a href="https://www.instagram.com/salpa.project" class="nav__link"><img
+                                src="./assets/insta.svg"></a></li>
+                </ul>
+                <button class="nav__toggle" id="nav-toggle">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Projeto Salpa</h1>
+                <h2 class="hero__subtitle">Boia Filtrante de Microplásticos</h2>
+                <p class="hero__description">
+                    Tecnologia inovadora de baixo custo para a remediação de microplásticos em corpos d'água,
+                    desenvolvida por Rodrigo Dini, aluno do SENAC Santa Cruz do Sul.
+                </p>
+                <div class="hero__actions">
+                    <a href="#artigo" class="btn btn--primary btn--lg">Acessar Artigo Científico</a>
+                    <a href="#sobre" class="btn btn--outline btn--lg">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <div class="image-placeholder">
+                    <img src="assets/render3.png" class="pictures">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sponsors Section -->
+    <section id="patrocinadores" class="section section--alt">
+        <div class="container">
+            <h2 class="section__title">Patrocinadores</h2>
+            <div class="sponsors-grid">
+                <div class="sponsor-item">
+                    <div class="sponsor-logo">
+                        <img src="assets/aquapureLogo.png" alt="Patrocinador atual" class="sponsor-image">
+                    </div>
+                </div>
+                <div class="sponsor-item sponsor-item--cta">
+                    <div class="sponsor-cta">
+                        <h3 class="sponsor-cta__title">Seja um patrocinador do nosso projeto</h3>
+                        <p class="sponsor-cta__text">Apoie a inovação em tecnologia ambiental e faça parte da solução
+                            para um futuro mais sustentável</p>
+                        <a href="https://drive.google.com/file/d/18ZYCKgnO9UnKwixE0rTWjPm9CCyKuqW7/view?usp=sharing" class="btn btn--primary btn--sm">Clique aqui e veja mais informações</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section__title">Sobre o Projeto</h2>
+            <div class="section__grid">
+                <div class="section__content">
+                    <p class="section__text">
+                        O <strong>Projeto Salpa</strong> é uma solução inovadora para o problema crescente da poluição
+                        por microplásticos
+                        em corpos d'água. Desenvolvido por estudantes da Escola de Ensino Médio e Técnico SENAC Santa
+                        Cruz do Sul,
+                        o projeto surgiu como resposta às enchentes de 2023-2024 que afetaram a região.
+                    </p>
+                    <p class="section__text">
+                        Inspirado na <em>salpa</em>, um animal marinho que filtra naturalmente partículas da água,
+                        nossa boia utiliza fluidos magnetoreológicos (ferrofluidos) para capturar microplásticos de
+                        forma eficiente e sustentável.
+                    </p>
+                    <div class="sdg-tags">
+                        <span class="tag tag--primary">ODS 3: Saúde e Bem-Estar</span>
+                        <span class="tag tag--primary">ODS 6: Água Potavel e Saneamento</span>
+                        <span class="tag tag--primary">ODS 14: Vida na Água</span>
+                    </div>
+                </div>
+                <div class="section__image">
+                    <div class="image-placeholder">
+                        <img src="assets/teste.jpg" class="pictures">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section id="funcionamento" class="section">
+        <div class="container">
+            <h2 class="section__title">Como Funciona</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-card__icon">🧲</div>
+                    <h3 class="feature-card__title">Fluido Magnetoreológico</h3>
+                    <p class="feature-card__text">
+                        Sistema de captura baseado em ferrofluidos que respondem a campos magnéticos,
+                        atraindo e retendo microplásticos da água.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">⚡</div>
+                    <h3 class="feature-card__title">Controle Eletrônico</h3>
+                    <p class="feature-card__text">
+                        Controle de vazão eletrônico automatizado que otimiza o processo de filtração
+                        conforme as condições do ambiente.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">📡</div>
+                    <h3 class="feature-card__title">Monitoramento Remoto</h3>
+                    <p class="feature-card__text">
+                        Interface Next.js para monitoramento em tempo real e capacidade de desligamento
+                        de emergência à distância.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Features -->
+    <section id="caracteristicas" class="section section--alt">
+        <div class="container">
+            <h2 class="section__title">Características Técnicas</h2>
+            <div class="section__grid">
+                <div class="section__content">
+                    <ul class="tech-list">
+                        <li>Sistema de captura por fluido magnetoreológico (MRF)</li>
+                        <li>Controle de vazão eletrônico</li>
+                        <li>Monitoramento remoto via interface Next.js</li>
+                        <li>Ímãs de neodímio até 9.500 Gauss</li>
+                        <li>Alimentação solar</li>
+                        <li>Design de baixo custo</li>
+                        <li>Operação autônoma</li>
+                    </ul>
+                </div>
+                <div class="section__image">
+                    <div class="image-placeholder">
+                        <img src="assets/image (4).png" class="pictures">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="resultados" class="section">
+        <div class="container">
+            <h2 class="section__title">Resultados e Testes</h2>
+            <div class="results-grid">
+                <div class="result-card">
+                    <h3 class="result-card__title">Melhor Composição</h3>
+                    <p class="result-card__value">Óleo de soja, pó de ferro e ácido oleico</p>
+                    <p class="result-card__description">Formulação otimizada após testes extensivos</p>
+                </div>
+                <div class="result-card">
+                    <h3 class="result-card__title">Segura</h3>
+                    <p class="result-card__value">5 camadas de segurança contra vazamento</p>
+                    <p class="result-card__description">Eficiência comprovada em laboratório</p>
+                </div>
+                <div class="result-card">
+                    <h3 class="result-card__title">Baixo custo</h3>
+                    <p class="result-card__value">Uso de materiais baratos</p>
+                    <p class="result-card__description">Feito para larga escala</p>
+                </div>
+            </div>
+            <div class="section__image">
+                <div class="image-placeholder">
+                    <img src="assets/oil.jpg" class="pictures" />
+                </div>
+                <div class="image-placeholder">
+                    <img src="assets/labfocus.png" class="pictures" />
+                </div>
+                <div class="image-placeholder">
+                    <img src="assets/ferrofluido.png" class="pictures" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="section section--alt">
+        <div class="container">
+            <h2 class="section__title">Galeria de Fotos</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <img src="assets/bouy.jpg" class="pictures" />
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <img src="assets/lab1.jpg" class="pictures" />
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <img src="assets/fair.jpg" class="pictures" />
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <img src="assets/membrana.jpg" class="pictures" />
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <img src="assets/me.jpg" class="pictures" />
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <img src="assets/material.png" class="pictures" />
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <img src="assets/render1.png" class="pictures" />
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <img src="assets/lab3.jpg" class="pictures" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2 class="section__title">Entre em Contato</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p class="contact-text">
+                        Entre em contato conosco para saber mais sobre o Projeto Salpa,
+                        parcerias ou colaborações acadêmicas.
+                    </p>
+                    <div class="contact-item">
+                        <strong>Instituição:</strong><br>
+                        Escola de Ensino Médio e Técnico SENAC Santa Cruz do Sul
+                    </div>
+                    <div class="contact-item">
+                        <strong>Autor:</strong><br>
+                        Rodrigo Penno Dini
+                    </div>
+                    <div class="contact-item">
+                        <strong>Localização:</strong><br>
+                        Santa Cruz do Sul, RS
+                    </div>
+                </div>
+                <div class="contact-buttons">
+                    <a href="https://wa.me/5551999599285" target="_blank" class="contact-btn contact-btn--whatsapp">
+                        <span class="contact-btn__icon">📱</span>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <span>(51) 99959-9285</span>
+                        </div>
+                    </a>
+                    <a href="mailto:projeto.aquapure@gmail.com" class="contact-btn contact-btn--email">
+                        <span class="contact-btn__icon">✉️</span>
+                        <div>
+                            <strong>E-mail</strong>
+                            <span>projeto.aquapure@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="tel:+5551999599285" class="contact-btn contact-btn--phone">
+                        <span class="contact-btn__icon">☎️</span>
+                        <div>
+                            <strong>Telefone</strong>
+                            <span>(51) 99959-9285</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Article Access Section -->
+    <section id="artigo" class="section section--alt">
+        <div class="container">
+            <div class="article-cta">
+                <h2 class="article-cta__title">Acesse o Artigo Científico</h2>
+                <p class="article-cta__description">
+                    Leia a documentação técnica completa do Projeto Salpa, incluindo metodologia,
+                    resultados detalhados e análises científicas.
+                </p>
+                <button class="btn btn--primary btn--lg" id="article-btn">
+                    📄 Acessar Artigo Completo
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>Projeto Salpa</h3>
+                    <p>Boia Filtrante de Microplásticos</p>
+                </div>
+                <div class="footer__info">
+                    <p>&copy; 2025 - SENAC Santa Cruz do Sul</p>
+                    <p>Desenvolvido por Rodrigo Penno Dini</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
